@@ -1,0 +1,25 @@
+.mask {
+  background: rgba(252,209,194,0.2);
+}
+.mask__wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1440px;
+}
+.mask__img {
+  width: 100%;
+}
+.mask__text {
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  top: calc(50% - 135px);
+  left: calc(50% - 145px);
+}
+.mask-mobile__img {
+  display: none;
+}

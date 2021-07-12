@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    display: inline-block;
+}
+p {
+    margin: 0;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+input {
+    outline: none;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1340px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/about";
+@import "blocks/review";
+@import "blocks/mask";
+@import "blocks/use";
+@import "blocks/testimonials";
+@import "blocks/blog";
+@import "blocks/brands";
+@import "blocks/contact";
+@import "blocks/carousel";
+@import "blocks/footer";
+@import "blocks/media";
+
+
